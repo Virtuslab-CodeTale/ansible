@@ -86,5 +86,93 @@
     "commit" : "75cd73d52ddf65482236a7a26ba60901ee2cbd6a",
     "line" : 97,
     "diffHunk" : "@@ -1,1 +75,79 @@- ``#ansibleu`` - Channel for the European Ansible Community.\n- ``#ansible-fr`` - Channel for French speaking Ansible community.\n- ``#ansiblezh`` - Channel for Zurich/Swiss Ansible community.\n\nIRC meetings"
+  },
+  {
+    "id" : "498346da-1c2e-4884-8a42-8957785121ea",
+    "prId" : 75406,
+    "prUrl" : "https://github.com/ansible/ansible/pull/75406#pullrequestreview-728749933",
+    "prSource" : "GitHub",
+    "comments" : [
+      {
+        "id" : "d4bc7d2c-ea71-4588-a976-06ef475fc3bc",
+        "parentId" : null,
+        "authorId" : "8b15381b-8414-4249-9b91-d039e5a715c2",
+        "body" : "We need some guidance around edits, they don't do well on IRC. How's this?\r\n\r\n```\r\n* edits (so you can fix your typos, although please use this lightly as it doesn't translate well to IRC) \r\n```",
+        "createdAt" : "2021-08-05T08:37:21Z",
+        "updatedAt" : "2021-08-05T10:28:45Z",
+        "lastEditedBy" : "8b15381b-8414-4249-9b91-d039e5a715c2",
+        "tags" : [
+        ]
+      },
+      {
+        "id" : "f240500e-5f90-4139-86e6-a99ad04674ec",
+        "parentId" : "d4bc7d2c-ea71-4588-a976-06ef475fc3bc",
+        "authorId" : "0d301bd1-6b47-409f-ac92-439b799b2375",
+        "body" : "I see this section as \"deciding between Matrix and IRC for your chat connection\" and would like to keep it focused. How about making a separate page or section for `Chat etiquette` that covers all the ways users can be mindful of the Matrix/IRC bridge? ",
+        "createdAt" : "2021-08-05T15:47:42Z",
+        "updatedAt" : "2021-08-05T15:47:42Z",
+        "lastEditedBy" : "0d301bd1-6b47-409f-ac92-439b799b2375",
+        "tags" : [
+        ]
+      },
+      {
+        "id" : "836252d1-1ade-4984-9eec-b66704272afb",
+        "parentId" : "d4bc7d2c-ea71-4588-a976-06ef475fc3bc",
+        "authorId" : "8b15381b-8414-4249-9b91-d039e5a715c2",
+        "body" : "+1 to an etiquette page",
+        "createdAt" : "2021-08-05T16:27:32Z",
+        "updatedAt" : "2021-08-05T16:27:32Z",
+        "lastEditedBy" : "8b15381b-8414-4249-9b91-d039e5a715c2",
+        "tags" : [
+        ]
+      },
+      {
+        "id" : "a8c8ca0c-5c54-4118-a086-2c897be4fc4a",
+        "parentId" : "d4bc7d2c-ea71-4588-a976-06ef475fc3bc",
+        "authorId" : "0d301bd1-6b47-409f-ac92-439b799b2375",
+        "body" : "Incorporated into #75478. ",
+        "createdAt" : "2021-08-12T15:10:18Z",
+        "updatedAt" : "2021-08-12T15:10:18Z",
+        "lastEditedBy" : "0d301bd1-6b47-409f-ac92-439b799b2375",
+        "tags" : [
+        ]
+      }
+    ],
+    "commit" : "fdd4677fa0ef53f06cf5dd5d77fb407d57aa99c4",
+    "line" : 51,
+    "diffHunk" : "@@ -1,1 +48,52 @@\n* persistence (when you log on, you see all messages since you last logged off)\n* edits (so you can fix your typos)\n* replies to individual users\n* reactions/emojis"
+  },
+  {
+    "id" : "08120ef8-70fa-4143-85a7-583164fbff5f",
+    "prId" : 75406,
+    "prUrl" : "https://github.com/ansible/ansible/pull/75406#pullrequestreview-728749201",
+    "prSource" : "GitHub",
+    "comments" : [
+      {
+        "id" : "9efcbc35-a4eb-45ca-87bf-946527a848b8",
+        "parentId" : null,
+        "authorId" : "8b15381b-8414-4249-9b91-d039e5a715c2",
+        "body" : "Is it worth dropping *another* link to `#meeting:ansible.im` here? Or perhaps that should go in the linked README?",
+        "createdAt" : "2021-08-05T08:44:24Z",
+        "updatedAt" : "2021-08-05T10:28:46Z",
+        "lastEditedBy" : "8b15381b-8414-4249-9b91-d039e5a715c2",
+        "tags" : [
+        ]
+      },
+      {
+        "id" : "a5365252-8155-461f-b359-ea33fc2e679a",
+        "parentId" : "9efcbc35-a4eb-45ca-87bf-946527a848b8",
+        "authorId" : "0d301bd1-6b47-409f-ac92-439b799b2375",
+        "body" : "Up to now, the specifics of \"which channel for which WG\" have lived in the README.md linked to here. If we want to move it into docs, we can, but let's keep it in one and only one place, so we only have one place to update when things change. I mentioned this in the tracking issue for further work, #75478. ",
+        "createdAt" : "2021-08-12T15:09:40Z",
+        "updatedAt" : "2021-08-12T15:09:40Z",
+        "lastEditedBy" : "0d301bd1-6b47-409f-ac92-439b799b2375",
+        "tags" : [
+        ]
+      }
+    ],
+    "commit" : "fdd4677fa0ef53f06cf5dd5d77fb407d57aa99c4",
+    "line" : 97,
+    "diffHunk" : "@@ -1,1 +125,129 @@----------------\n\nThe Ansible community holds regular meetings on various topics on Matrix/IRC, and anyone who is interested is invited to participate. For more information about Ansible meetings, consult the `meeting schedule and agenda page <https://github.com/ansible/community/blob/master/meetings/README.md>`_.\n\nAnsible Automation Platform support questions"
   }
 ]

@@ -449,5 +449,49 @@
     "commit" : "1985d9f01ffcf1c4fe2d6d89cfeb6f1ee24fbe8b",
     "line" : 50,
     "diffHunk" : "@@ -1,1 +86,90 @@.. literalinclude:: ../../../../examples/scripts/my_test_facts.py\n   :language: python\n\nCreating a module\n================="
+  },
+  {
+    "id" : "9e96b770-6ae3-43ab-ae99-b2fc5b0d760f",
+    "prId" : 75406,
+    "prUrl" : "https://github.com/ansible/ansible/pull/75406#pullrequestreview-723079694",
+    "prSource" : "GitHub",
+    "comments" : [
+      {
+        "id" : "3703ab6a-7310-4e40-aa37-99a3394fde95",
+        "parentId" : null,
+        "authorId" : "8b15381b-8414-4249-9b91-d039e5a715c2",
+        "body" : "https://matrix.to/#/#devel:ansible.im",
+        "createdAt" : "2021-08-05T08:50:23Z",
+        "updatedAt" : "2021-08-05T10:28:46Z",
+        "lastEditedBy" : "8b15381b-8414-4249-9b91-d039e5a715c2",
+        "tags" : [
+        ]
+      }
+    ],
+    "commit" : "fdd4677fa0ef53f06cf5dd5d77fb407d57aa99c4",
+    "line" : 6,
+    "diffHunk" : "@@ -1,1 +219,223 @@=====================================\n\nJoin the ``#ansible-devel`` chat channel (using Matrix at ansible.im or using IRC at `irc.libera.chat <https://libera.chat/>`_) for discussions surrounding Ansible development.\n\nFor questions and discussions pertaining to using the Ansible product, join the ``#ansible`` channel."
+  },
+  {
+    "id" : "f3dd9820-c918-49c7-aa0d-3f3041a4e149",
+    "prId" : 75406,
+    "prUrl" : "https://github.com/ansible/ansible/pull/75406#pullrequestreview-723079694",
+    "prSource" : "GitHub",
+    "comments" : [
+      {
+        "id" : "602d9135-2f0b-45d9-bcf8-2a7fb5de83b7",
+        "parentId" : null,
+        "authorId" : "8b15381b-8414-4249-9b91-d039e5a715c2",
+        "body" : "https://matrix.to/#/#users:ansible.im",
+        "createdAt" : "2021-08-05T08:50:31Z",
+        "updatedAt" : "2021-08-05T10:28:46Z",
+        "lastEditedBy" : "8b15381b-8414-4249-9b91-d039e5a715c2",
+        "tags" : [
+        ]
+      }
+    ],
+    "commit" : "fdd4677fa0ef53f06cf5dd5d77fb407d57aa99c4",
+    "line" : 10,
+    "diffHunk" : "@@ -1,1 +221,225 @@Join the ``#ansible-devel`` chat channel (using Matrix at ansible.im or using IRC at `irc.libera.chat <https://libera.chat/>`_) for discussions surrounding Ansible development.\n\nFor questions and discussions pertaining to using the Ansible product, join the ``#ansible`` channel.\n\nTo find other topic-specific chat channels, look at :ref:`Community Guide, Communicating <communication_irc>`."
   }
 ]

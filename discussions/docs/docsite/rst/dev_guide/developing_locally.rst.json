@@ -75,5 +75,82 @@
     "commit" : "c1fb22cebe24cbca5cceb7e285fc60ac914366fe",
     "line" : 4,
     "diffHunk" : "@@ -1,1 +44,48 @@To confirm that ``my_custom_module`` is available:\n\n* type ``ansible localhost -m my_custom_module``. You should see the output for that module.\n\nor "
+  },
+  {
+    "id" : "0b37ad4a-0570-45f3-ba5a-3b3f0271e11a",
+    "prId" : 75157,
+    "prUrl" : "https://github.com/ansible/ansible/pull/75157#pullrequestreview-697614442",
+    "prSource" : "GitHub",
+    "comments" : [
+      {
+        "id" : "046fe3dc-35a7-4b03-a270-e504e3e1d71d",
+        "parentId" : null,
+        "authorId" : "30fc1801-f8f1-4cc4-9690-e31e203f4f6d",
+        "body" : "I would point to the config variables instead of listing them as these paths can change",
+        "createdAt" : "2021-07-01T19:26:22Z",
+        "updatedAt" : "2021-07-01T19:26:22Z",
+        "lastEditedBy" : "30fc1801-f8f1-4cc4-9690-e31e203f4f6d",
+        "tags" : [
+        ]
+      },
+      {
+        "id" : "2eaefb4e-4ca4-4228-9e22-8e5fdc595d22",
+        "parentId" : "046fe3dc-35a7-4b03-a270-e504e3e1d71d",
+        "authorId" : "0d301bd1-6b47-409f-ac92-439b799b2375",
+        "body" : "addressed in 22e6bc666ecca573e9a5a86acd2ac64cec01a223",
+        "createdAt" : "2021-07-01T20:09:56Z",
+        "updatedAt" : "2021-07-01T20:09:56Z",
+        "lastEditedBy" : "0d301bd1-6b47-409f-ac92-439b799b2375",
+        "tags" : [
+        ]
+      }
+    ],
+    "commit" : "d1103127ab512e487cd3dd6ec84baa420def0d3f",
+    "line" : 136,
+    "diffHunk" : "@@ -1,1 +98,102 @@\n   Although modules are plugins, the naming patterns for directory names and environment variables that apply to other plugin types do not apply to modules. See :ref:`local_modules`.\n\nAdding local non-module plugins for all playbooks and roles\n-----------------------------------------------------------"
+  },
+  {
+    "id" : "53d1d588-9e56-4810-9ec3-e5e942076610",
+    "prId" : 75157,
+    "prUrl" : "https://github.com/ansible/ansible/pull/75157#pullrequestreview-728776283",
+    "prSource" : "GitHub",
+    "comments" : [
+      {
+        "id" : "5b6d17eb-6f2a-4f7b-834c-a4110185d521",
+        "parentId" : null,
+        "authorId" : "659587dc-b401-4c91-aa40-a8a932100545",
+        "body" : "Is it worth mentioning here that for roles in a collection, you can no longer include a standalone module as part of that role?",
+        "createdAt" : "2021-08-11T20:42:28Z",
+        "updatedAt" : "2021-08-11T20:46:23Z",
+        "lastEditedBy" : "659587dc-b401-4c91-aa40-a8a932100545",
+        "tags" : [
+        ]
+      },
+      {
+        "id" : "33d2614f-90ba-400f-8e45-1e2f171e057e",
+        "parentId" : "5b6d17eb-6f2a-4f7b-834c-a4110185d521",
+        "authorId" : "0d301bd1-6b47-409f-ac92-439b799b2375",
+        "body" : "Ah, good catch, yes.",
+        "createdAt" : "2021-08-11T21:02:16Z",
+        "updatedAt" : "2021-08-11T21:02:17Z",
+        "lastEditedBy" : "0d301bd1-6b47-409f-ac92-439b799b2375",
+        "tags" : [
+        ]
+      },
+      {
+        "id" : "123ab2d6-bbdd-4e56-89e0-4ce3a283324a",
+        "parentId" : "5b6d17eb-6f2a-4f7b-834c-a4110185d521",
+        "authorId" : "0d301bd1-6b47-409f-ac92-439b799b2375",
+        "body" : "addressed in d1103127ab512e487cd3dd6ec84baa420def0d3f",
+        "createdAt" : "2021-08-12T15:32:56Z",
+        "updatedAt" : "2021-08-12T15:32:56Z",
+        "lastEditedBy" : "0d301bd1-6b47-409f-ac92-439b799b2375",
+        "tags" : [
+        ]
+      }
+    ],
+    "commit" : "d1103127ab512e487cd3dd6ec84baa420def0d3f",
+    "line" : 108,
+    "diffHunk" : "@@ -1,1 +86,90 @@\n   Roles contained in collections cannot contain any modules or other plugins. All plugins in a collection must live in the collection ``plugins`` directory tree. All plugins in that tree are accessible to all roles in the collection. If you are developing new modules, we recommend distributing them in :ref:`collections <developing_collections>`, not in roles.\n\n.. _distributing_plugins:\n.. _local_plugins:"
   }
 ]

@@ -119,5 +119,27 @@
     "commit" : "96c3280b3a5830a07135b0abd30f6b075dd51cf9",
     "line" : 6,
     "diffHunk" : "@@ -1,1 +26,30 @@* ensure your code is readable\n* if a module is named ``<something>_facts``, it should be because its main purpose is returning ``ansible_facts``. Do not name modules that do not do this with ``_facts``.\n* Modules that query/return general information (and not ``ansible_facts``) should be named ``_info``.\n\nPlease make sure your module meets these requirements before you submit your PR/proposal. If you have questions, reach out via `Ansible's IRC chat channel <http://irc.freenode.net>`_ or the `Ansible development mailing list <https://groups.google.com/group/ansible-devel>`_."
+  },
+  {
+    "id" : "57f2fa66-e3bc-4461-b697-25d625b983b9",
+    "prId" : 75406,
+    "prUrl" : "https://github.com/ansible/ansible/pull/75406#pullrequestreview-723079694",
+    "prSource" : "GitHub",
+    "comments" : [
+      {
+        "id" : "83c54488-0293-4c74-9762-53749c4524ff",
+        "parentId" : null,
+        "authorId" : "8b15381b-8414-4249-9b91-d039e5a715c2",
+        "body" : "Link to https://matrix.to/#/#devel:ansible.im",
+        "createdAt" : "2021-08-05T08:50:10Z",
+        "updatedAt" : "2021-08-05T10:28:46Z",
+        "lastEditedBy" : "8b15381b-8414-4249-9b91-d039e5a715c2",
+        "tags" : [
+        ]
+      }
+    ],
+    "commit" : "fdd4677fa0ef53f06cf5dd5d77fb407d57aa99c4",
+    "line" : 5,
+    "diffHunk" : "@@ -1,1 +32,36 @@Additional requirements may apply for certain collections. Review the individual collection repositories for more information.\n\nPlease make sure your module meets these requirements before you submit your PR/proposal. If you have questions, reach out via the ``#ansible-devel`` chat channel (using Matrix at ansible.im or using IRC at `irc.libera.chat <https://libera.chat>`_) or the `Ansible development mailing list <https://groups.google.com/group/ansible-devel>`_.\n\nContributing to Ansible: subjective requirements"
   }
 ]

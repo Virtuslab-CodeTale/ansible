@@ -1,0 +1,46 @@
+[
+  {
+    "id" : "88827baa-24fc-4178-a2b4-84e9f2ef2f83",
+    "prId" : 75406,
+    "prUrl" : "https://github.com/ansible/ansible/pull/75406#pullrequestreview-728748176",
+    "prSource" : "GitHub",
+    "comments" : [
+      {
+        "id" : "d4f85a3a-5a08-43f5-87c5-0e1f28ee7ae7",
+        "parentId" : null,
+        "authorId" : "8b15381b-8414-4249-9b91-d039e5a715c2",
+        "body" : "https://matrix.to/#/#devel:ansible.im",
+        "createdAt" : "2021-08-05T08:52:32Z",
+        "updatedAt" : "2021-08-05T10:28:46Z",
+        "lastEditedBy" : "8b15381b-8414-4249-9b91-d039e5a715c2",
+        "tags" : [
+        ]
+      },
+      {
+        "id" : "efe56e7b-9763-4805-a076-d047006f29ec",
+        "parentId" : "d4f85a3a-5a08-43f5-87c5-0e1f28ee7ae7",
+        "authorId" : "8b15381b-8414-4249-9b91-d039e5a715c2",
+        "body" : "OK, I'm going to stop pasting this now and prep a new commit ;)",
+        "createdAt" : "2021-08-05T08:53:04Z",
+        "updatedAt" : "2021-08-05T10:28:46Z",
+        "lastEditedBy" : "8b15381b-8414-4249-9b91-d039e5a715c2",
+        "tags" : [
+        ]
+      },
+      {
+        "id" : "80acddc3-1c2a-428f-95c7-35589bd92506",
+        "parentId" : "d4f85a3a-5a08-43f5-87c5-0e1f28ee7ae7",
+        "authorId" : "0d301bd1-6b47-409f-ac92-439b799b2375",
+        "body" : "I made a separate issue for all of these: #75478. They do need updating, but this PR is already a mammoth one, so I'm going to suggest we merge what we have so far, then iteratively improve it.",
+        "createdAt" : "2021-08-12T15:08:50Z",
+        "updatedAt" : "2021-08-12T15:08:51Z",
+        "lastEditedBy" : "0d301bd1-6b47-409f-ac92-439b799b2375",
+        "tags" : [
+        ]
+      }
+    ],
+    "commit" : "fdd4677fa0ef53f06cf5dd5d77fb407d57aa99c4",
+    "line" : 6,
+    "diffHunk" : "@@ -1,1 +56,60 @@\n* Subscribe to the Mailing Lists - We suggest \"Ansible Development List\" and \"Ansible Announce list\"\n* ``#ansible-devel`` - We have found that communicating on the ``#ansible-devel`` chat channel (using Matrix at ansible.im or using IRC at `irc.libera.chat <https://libera.chat/>`_) works best for developers so we can have an interactive dialogue.\n* Working group and other chat channel meetings - Join the various weekly meetings `meeting schedule and agenda page <https://github.com/ansible/community/blob/master/meetings/README.md>`_\n"
+  }
+]

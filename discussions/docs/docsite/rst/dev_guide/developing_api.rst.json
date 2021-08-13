@@ -1,0 +1,35 @@
+[
+  {
+    "id" : "d2bcd393-4f03-4127-a223-500781462b94",
+    "prId" : 75406,
+    "prUrl" : "https://github.com/ansible/ansible/pull/75406#pullrequestreview-723079694",
+    "prSource" : "GitHub",
+    "comments" : [
+      {
+        "id" : "21d1d044-56f2-489a-aaa4-ef5504c40b41",
+        "parentId" : null,
+        "authorId" : "8b15381b-8414-4249-9b91-d039e5a715c2",
+        "body" : "If the goal is a direct link to #ansible, then again a link to https://matrix.to/#/#users:ansible.im (#ansible) or https://matrix.to/#/#devel:ansible.im (#ansible-devel) could work? I'm on the fence, a link to the full list of channels isn't wrong either ....",
+        "createdAt" : "2021-08-05T08:48:35Z",
+        "updatedAt" : "2021-08-05T10:28:46Z",
+        "lastEditedBy" : "8b15381b-8414-4249-9b91-d039e5a715c2",
+        "tags" : [
+        ]
+      },
+      {
+        "id" : "bda85059-d75f-4afa-af9a-3d022d5f948b",
+        "parentId" : "21d1d044-56f2-489a-aaa4-ef5504c40b41",
+        "authorId" : "8b15381b-8414-4249-9b91-d039e5a715c2",
+        "body" : "That said, the more we link to the one :ref: for everything, the more I'm convinced we need a huge \"join *this* room if you're even 1% unsure\" section, because that page is large and has many options ...",
+        "createdAt" : "2021-08-05T08:49:44Z",
+        "updatedAt" : "2021-08-05T10:28:46Z",
+        "lastEditedBy" : "8b15381b-8414-4249-9b91-d039e5a715c2",
+        "tags" : [
+        ]
+      }
+    ],
+    "commit" : "fdd4677fa0ef53f06cf5dd5d77fb407d57aa99c4",
+    "line" : 7,
+    "diffHunk" : "@@ -1,1 +45,49 @@       Mailing list for development topics\n   :ref:`communication_irc`\n       How to join Ansible chat channels"
+  }
+]
