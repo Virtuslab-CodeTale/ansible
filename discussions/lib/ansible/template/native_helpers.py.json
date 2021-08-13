@@ -97,5 +97,27 @@
     "commit" : "9149130130016237ced373425fd6cd89998a3548",
     "line" : 29,
     "diffHunk" : "@@ -1,1 +76,80 @@            # https://github.com/pallets/jinja/issues/1200\n            # https://github.com/ansible/ansible/issues/70831#issuecomment-664190894\n            return out\n    else:\n        if isinstance(nodes, types.GeneratorType):"
+  },
+  {
+    "id" : "f3dc8096-5aaa-4eb5-a97a-c9f0a33013eb",
+    "prId" : 75484,
+    "prUrl" : "https://github.com/ansible/ansible/pull/75484#pullrequestreview-728685591",
+    "prSource" : "GitHub",
+    "comments" : [
+      {
+        "id" : "dbda33e3-432c-492f-a716-54518c5cd89f",
+        "parentId" : null,
+        "authorId" : "30fc1801-f8f1-4cc4-9690-e31e203f4f6d",
+        "body" : "~why not add to above as tuple in existing isinstance?~ not ....",
+        "createdAt" : "2021-08-12T14:27:45Z",
+        "updatedAt" : "2021-08-12T14:28:00Z",
+        "lastEditedBy" : "30fc1801-f8f1-4cc4-9690-e31e203f4f6d",
+        "tags" : [
+        ]
+      }
+    ],
+    "commit" : "ac8b4462ccf6ef0c9bca413d6792a896fa144b7b",
+    "line" : 14,
+    "diffHunk" : "@@ -1,1 +75,79 @@            return out\n\n        # short-circuit literal_eval for anything other than strings\n        if not isinstance(out, string_types):\n            return out"
   }
 ]
